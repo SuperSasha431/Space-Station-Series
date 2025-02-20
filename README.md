@@ -1,6 +1,6 @@
 <a href="#"><img src=".github/assets/paradise.png" alt="Paradise Station"></a>
 
-## <p align="center">Добро пожаловать в репозиторий Paradise WyccStation SS220 по игре [Space Station 13](https://spacestation13.com/).</p>
+## <p align="center">Добро пожаловать в репозиторий Space Station Series по игре [Space Station 13](https://spacestation13.com/).</p>
 
 <p align="center">
 	<a href="https://github.com/ss220club/Paradise-SS220/actions?query=workflow%3ACI"><img src="https://github.com/ss220club/Paradise-SS220/workflows/CI/badge.svg" alt="CI"></a>
