@@ -1,0 +1,303 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/turf/simulated/mineral/volcanic/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"c" = (
+/turf/simulated/floor/lava/mapping_lava,
+/area/lavaland/surface/outdoors)
+"d" = (
+/obj/effect/baseturf_helper/lava/mapping_lava,
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"e" = (
+/obj/structure/mirror{
+	pixel_x = -32
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"f" = (
+/obj/structure/mirror{
+	pixel_x = 32
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"g" = (
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"j" = (
+/obj/structure/mirror{
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"k" = (
+/obj/structure/mirror{
+	pixel_x = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"l" = (
+/obj/structure/mirror{
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	brightness_range = 3;
+	dir = 8
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"m" = (
+/obj/structure/mirror{
+	pixel_x = 32
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"r" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+"G" = (
+/turf/simulated/wall/mineral/diamond,
+/area/ruin/powered/pride)
+"O" = (
+/obj/structure/mirror/magic/pride,
+/turf/simulated/wall/mineral/diamond,
+/area/ruin/powered/pride)
+"P" = (
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Y" = (
+/obj/machinery/door/airlock/diamond,
+/obj/structure/fans/tiny/invisible,
+/turf/simulated/floor/mineral/silver/lavaland_air,
+/area/ruin/powered/pride)
+
+(1,1,1) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(2,1,1) = {"
+P
+P
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+P
+"}
+(3,1,1) = {"
+b
+c
+c
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+c
+P
+"}
+(4,1,1) = {"
+c
+c
+G
+G
+G
+j
+e
+e
+l
+e
+e
+l
+e
+e
+l
+e
+e
+G
+c
+P
+"}
+(5,1,1) = {"
+c
+G
+G
+G
+G
+G
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+r
+G
+P
+P
+"}
+(6,1,1) = {"
+c
+G
+G
+G
+G
+G
+O
+g
+g
+g
+d
+g
+g
+g
+g
+g
+g
+Y
+P
+P
+"}
+(7,1,1) = {"
+c
+G
+G
+G
+G
+G
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+r
+G
+c
+P
+"}
+(8,1,1) = {"
+c
+c
+G
+G
+G
+k
+f
+f
+m
+f
+f
+m
+f
+f
+m
+f
+f
+G
+c
+P
+"}
+(9,1,1) = {"
+b
+c
+c
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+c
+P
+"}
+(10,1,1) = {"
+b
+b
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+P
+"}

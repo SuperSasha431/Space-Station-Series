@@ -1,0 +1,335 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"d" = (
+/turf/simulated/wall/cult,
+/area/ruin/unpowered/misc_lavaruin)
+"e" = (
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/misc_lavaruin)
+"f" = (
+/obj/structure/cult/pylon,
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/misc_lavaruin)
+"g" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"h" = (
+/obj/effect/baseturf_helper/lava/mapping_lava,
+/turf/simulated/wall/cult,
+/area/ruin/unpowered/misc_lavaruin)
+"i" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/blood/old,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"k" = (
+/obj/effect/decal/remains/human,
+/obj/item/melee/cultblade,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"l" = (
+/obj/effect/decal/remains/human,
+/obj/item/clothing/shoes/cult,
+/obj/item/clothing/suit/hooded/cultrobes,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"m" = (
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"o" = (
+/obj/effect/rune/narsie{
+	color = "#ff0000";
+	used = 1
+	},
+/obj/item/cult_shift,
+/obj/effect/decal/remains/human,
+/obj/item/melee/cultblade/dagger,
+/obj/effect/step_trigger/sound_effect{
+	happens_once = 1;
+	name = "a grave mistake";
+	sound = 'sound/hallucinations/i_see_you1.ogg';
+	triggerer_only = 1
+	},
+/obj/effect/step_trigger/message{
+	message = "<span class='cult italic'><b><span class='big'>You've made a grave mistake, haven't you?</span></b></span>";
+	name = "ohfuck"
+	},
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"q" = (
+/obj/effect/decal/remains/human,
+/obj/item/clothing/shoes/cult,
+/obj/item/clothing/suit/hooded/cultrobes,
+/obj/effect/decal/cleanable/blood/old,
+/turf/simulated/floor/engine/cult/lavaland_air,
+/area/ruin/unpowered/misc_lavaruin)
+"s" = (
+/turf/simulated/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/misc_lavaruin)
+"B" = (
+/turf/simulated/floor/lava/mapping_lava,
+/area/ruin/unpowered/misc_lavaruin)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+b
+B
+b
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+d
+e
+B
+s
+B
+b
+b
+b
+B
+s
+B
+s
+d
+a
+"}
+(3,1,1) = {"
+a
+e
+f
+s
+d
+B
+B
+g
+B
+B
+d
+e
+f
+s
+a
+"}
+(4,1,1) = {"
+a
+B
+s
+B
+B
+B
+B
+b
+B
+B
+B
+B
+e
+B
+a
+"}
+(5,1,1) = {"
+a
+s
+d
+B
+B
+b
+b
+b
+b
+b
+B
+B
+d
+s
+a
+"}
+(6,1,1) = {"
+a
+B
+B
+B
+b
+b
+l
+d
+k
+b
+b
+B
+B
+B
+a
+"}
+(7,1,1) = {"
+b
+b
+B
+B
+g
+i
+b
+b
+b
+l
+b
+B
+B
+b
+b
+"}
+(8,1,1) = {"
+B
+b
+g
+b
+b
+d
+b
+o
+b
+d
+b
+b
+g
+b
+B
+"}
+(9,1,1) = {"
+b
+b
+B
+B
+b
+k
+b
+b
+b
+m
+b
+B
+B
+b
+b
+"}
+(10,1,1) = {"
+a
+B
+B
+B
+g
+b
+m
+h
+q
+b
+b
+B
+B
+B
+a
+"}
+(11,1,1) = {"
+a
+s
+d
+B
+B
+b
+b
+b
+b
+b
+B
+B
+d
+s
+a
+"}
+(12,1,1) = {"
+a
+B
+s
+B
+B
+B
+B
+b
+B
+B
+B
+B
+e
+B
+a
+"}
+(13,1,1) = {"
+a
+e
+f
+s
+d
+B
+B
+g
+B
+B
+d
+e
+f
+s
+a
+"}
+(14,1,1) = {"
+a
+d
+e
+B
+s
+B
+b
+b
+b
+B
+s
+B
+s
+d
+a
+"}
+(15,1,1) = {"
+a
+a
+a
+a
+a
+a
+b
+B
+b
+a
+a
+a
+a
+a
+a
+"}

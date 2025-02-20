@@ -1,0 +1,356 @@
+// MARK: GENERAL STUFF
+a {
+  color: #0000ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0000ff;
+}
+
+h1.alert,
+h2.alert {
+  color: #000000;
+}
+
+// MARK: MOTD
+.motd {
+  color: #638500;
+}
+
+.motd h1,
+.motd h2,
+.motd h3,
+.motd h4,
+.motd h5,
+.motd h6 {
+  color: #638500;
+}
+
+.motd a,
+.motd a:link,
+.motd a:active,
+.motd a:hover {
+  color: #638500;
+}
+
+// MARK: General colors
+.looc {
+  color: #6699cc;
+}
+
+.discordpm {
+  color: #0000ff;
+}
+
+.debug {
+  color: #6d2f83;
+}
+
+.deadsay {
+  color: #5c00e6;
+}
+
+.darkmblue {
+  color: #0000ff;
+}
+
+// MARK: Admin/Mentor
+.mentorhelp {
+  color: #0077bb;
+}
+
+.mentor_channel {
+  color: #775bff;
+}
+
+.mentor_channel_admin {
+  color: #a35cff;
+}
+
+.adminhelp {
+  color: #aa0000;
+}
+
+.adminticket {
+  color: #3e7336;
+}
+
+.adminticketalt {
+  color: #014c8a;
+}
+
+.admin_channel {
+  color: #9a04d1;
+}
+
+.all_admin_ping {
+  color: #12a5f4;
+}
+
+.dev_channel {
+  color: #126719;
+}
+
+.dev_channel_admin {
+  color: #26a419;
+}
+
+// MARK: Radio
+.radio {
+  color: #408010;
+}
+
+.deptradio {
+  color: #993399;
+}
+
+.comradio {
+  color: #204090;
+}
+
+.syndradio {
+  color: #6d3f40;
+}
+
+.dsquadradio {
+  color: #686868;
+}
+
+.airadio {
+  color: #ff00ff;
+}
+
+.centradio {
+  color: #5c5c7c;
+}
+
+.secradio {
+  color: #a30000;
+}
+
+.engradio {
+  color: #a66300;
+}
+
+.medradio {
+  color: #009190;
+}
+
+.sciradio {
+  color: #993399;
+}
+
+.supradio {
+  color: #7f6539;
+}
+
+.srvradio {
+  color: #80a000;
+}
+
+.proradio {
+  color: #e3027a;
+}
+
+// MARK: Alerts
+.alert {
+  color: #ff0000;
+}
+
+h1.alert,
+h2.alert {
+  color: #000000;
+}
+
+.ghostalert {
+  color: #5c00e6;
+}
+
+.warning {
+  color: #ff0000;
+}
+
+.boldwarning {
+  color: #ff0000;
+}
+
+.danger {
+  color: #ff0000;
+}
+
+.userdanger {
+  color: #ff0000;
+}
+
+.notice {
+  color: #000099;
+}
+
+.boldnotice {
+  color: #000099;
+}
+
+// MARK: Announcements
+.announcement h1,
+.announcement h2 {
+  color: #000;
+}
+
+.announcement.sec h1 {
+  color: #f00;
+}
+
+.boldannounceic {
+  color: #ff0000;
+}
+
+.boldannounceooc {
+  color: #ff0000;
+}
+
+.pr_announce {
+  color: #228b22;
+}
+
+.greenannounce {
+  color: #00ff00;
+}
+
+// MARK: Antagonist
+.alien {
+  color: #543354;
+}
+
+.terrorspider {
+  color: #320e32;
+}
+
+.dantalion {
+  color: #6a2148;
+}
+
+.revennotice {
+  color: #1d2953;
+}
+
+.revenbignotice {
+  color: #1d2953;
+}
+
+.changeling {
+  color: #800080;
+}
+
+.cultspeech {
+  color: #7f0000;
+}
+
+.cultitalic {
+  color: #960000;
+}
+
+.cultlarge {
+  color: #960000;
+}
+
+.narsie {
+  color: #960000;
+}
+
+.narsiesmall {
+  color: #960000;
+}
+
+// MARK: Other colors
+.rose {
+  color: #ff5050;
+}
+
+.interface {
+  color: #330033;
+}
+
+.purple {
+  color: #5e2d79;
+}
+
+.orange {
+  color: #ffa500;
+}
+
+.healthscan_oxy {
+  color: #0074bd;
+}
+
+.specialnotice {
+  color: #36525e;
+}
+
+.whisper {
+  color: #333333;
+}
+
+/* Syndicate codewords */
+span.body .codephrases {
+  color: #0000ff;
+}
+
+span.body .coderesponses {
+  color: #ff0000;
+}
+
+// MARK: GASES
+.oxygen {
+  color: #006adb;
+}
+
+.nitrogen {
+  color: #d00a06;
+}
+
+.carbon_dioxide {
+  color: #1f1f1f;
+}
+
+.plasma {
+  color: #853c00;
+}
+
+.sleeping_agent {
+  color: #e82f2c;
+}
+
+.agent_b {
+  color: #004d4d;
+}
+
+// MARK: Boxed messages
+.boxed_message {
+  background: hsl(220, 100%, 97.5%);
+  border-color: hsla(220, 75%, 25%, 0.5);
+}
+
+.boxed_message.red_border {
+  background: hsl(0, 100%, 97.5%);
+  border-color: hsla(0, 100%, 50%, 0.5);
+}
+
+.boxed_message.green_border {
+  background: hsl(140, 100%, 97.5%);
+  border-color: hsl(120, 100%, 33%, 0.5);
+}
+
+.boxed_message.purple_border {
+  background: hsl(260, 100%, 97.5%);
+  border-color: hsla(260, 100%, 50%, 0.5);
+}
+
+.boxed_message.notice_border {
+  background: hsl(220, 100%, 97.5%);
+  border-color: hsla(225, 100%, 50%, 0.5);
+}

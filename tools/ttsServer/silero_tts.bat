@@ -1,0 +1,1 @@
+python local_silero_server.py

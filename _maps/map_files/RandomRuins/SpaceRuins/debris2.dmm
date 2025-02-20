@@ -1,0 +1,572 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/template_noop,
+/area/template_noop)
+"ab" = (
+/turf/simulated/floor/plating/airless,
+/area/template_noop)
+"ac" = (
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+"ad" = (
+/turf/simulated/wall/r_wall,
+/area/template_noop)
+"ae" = (
+/obj/item/stack/cable_coil/cut,
+/turf/template_noop,
+/area/template_noop)
+"ah" = (
+/obj/structure/girder,
+/turf/template_noop,
+/area/template_noop)
+"aj" = (
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/template_noop)
+"al" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/airless,
+/area/template_noop)
+"ao" = (
+/obj/machinery/door/airlock/command{
+	max_integrity = 40
+	},
+/turf/simulated/floor/plating/burnt/airless,
+/area/template_noop)
+"ap" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/template_noop,
+/area/template_noop)
+"ar" = (
+/obj/effect/mapping_helpers/turfs/burn,
+/turf/simulated/floor/plating/airless,
+/area/template_noop)
+"as" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/template_noop)
+"at" = (
+/obj/structure/door_assembly/door_assembly_com,
+/turf/template_noop,
+/area/template_noop)
+"au" = (
+/obj/item/clothing/head/bio_hood/virology,
+/turf/template_noop,
+/area/template_noop)
+"ay" = (
+/obj/structure/lattice,
+/obj/structure/door_assembly/door_assembly_vault{
+	anchored = 1
+	},
+/turf/simulated/floor/plating/airless,
+/area/template_noop)
+"aA" = (
+/obj/structure/closet/crate,
+/obj/item/reagent_containers/glass/beaker/bluespace,
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+"aC" = (
+/obj/item/stack/sheet/metal,
+/turf/template_noop,
+/area/template_noop)
+"aE" = (
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/template_noop,
+/area/template_noop)
+"aF" = (
+/turf/simulated/floor/plating/burnt/airless,
+/area/template_noop)
+"aG" = (
+/obj/structure/safe,
+/obj/item/stack/sheet/mineral/bananium{
+	amount = 5
+	},
+/obj/item/stack/ore/bluespace_crystal/refined{
+	amount = 3
+	},
+/obj/item/dnainjector/comic,
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+"aH" = (
+/obj/structure/table,
+/obj/item/salvage/ruin/brick,
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+"aL" = (
+/obj/item/shard,
+/turf/template_noop,
+/area/template_noop)
+"aM" = (
+/obj/effect/mapping_helpers/turfs/burn,
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+"aN" = (
+/obj/item/clothing/suit/bio_suit/virology,
+/turf/template_noop,
+/area/template_noop)
+"aO" = (
+/obj/item/shard{
+	icon_state = "small"
+	},
+/turf/template_noop,
+/area/template_noop)
+"aS" = (
+/obj/item/reagent_containers/spray/cleaner,
+/turf/template_noop,
+/area/template_noop)
+"aT" = (
+/turf/simulated/wall,
+/area/template_noop)
+"aV" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"aY" = (
+/obj/structure/girder/reinforced,
+/turf/simulated/floor/plating/damaged/airless,
+/area/template_noop)
+"aZ" = (
+/obj/machinery/computer/pandemic,
+/turf/simulated/floor/plasteel/airless,
+/area/template_noop)
+
+(1,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aa
+ad
+ad
+ad
+ad
+ad
+aY
+aa
+aS
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aa
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+aa
+ad
+aG
+aA
+aM
+aF
+ad
+as
+aT
+aT
+aT
+aT
+ao
+aT
+aa
+ap
+aO
+aa
+aa
+aa
+"}
+(4,1,1) = {"
+aa
+aY
+ac
+aM
+ac
+aM
+ad
+aa
+aV
+ab
+ac
+aM
+ab
+aT
+aV
+aa
+aa
+aa
+aa
+aa
+"}
+(5,1,1) = {"
+aa
+aY
+ab
+ar
+ar
+aV
+ad
+as
+aj
+ar
+ab
+ar
+ab
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(6,1,1) = {"
+aa
+ad
+ad
+ay
+ad
+ad
+aY
+aa
+aV
+aa
+ae
+aa
+aV
+aT
+aa
+aa
+aa
+aC
+aa
+aa
+"}
+(7,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aS
+ap
+aa
+aT
+aT
+aT
+aa
+aT
+aa
+aa
+aV
+aa
+aa
+aa
+"}
+(8,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aa
+aV
+aa
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(9,1,1) = {"
+aa
+ap
+as
+aT
+aj
+aV
+aT
+aC
+aa
+aO
+aa
+aV
+aa
+aa
+as
+aa
+as
+aa
+aa
+aa
+"}
+(10,1,1) = {"
+aa
+as
+aa
+aT
+ab
+ar
+aT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(11,1,1) = {"
+aa
+aa
+aa
+aT
+ac
+ar
+aT
+aa
+aa
+ac
+ar
+ab
+aj
+ar
+aT
+aa
+aa
+aa
+at
+aa
+"}
+(12,1,1) = {"
+aa
+aC
+aa
+aT
+aa
+ab
+aN
+as
+aa
+aa
+aL
+aV
+aV
+ab
+aT
+aa
+as
+aa
+aa
+aa
+"}
+(13,1,1) = {"
+aa
+aa
+aa
+al
+aT
+aT
+aT
+aa
+aa
+au
+aj
+ar
+ac
+aM
+aT
+aa
+aa
+aa
+aa
+aa
+"}
+(14,1,1) = {"
+aa
+aa
+as
+ap
+aa
+aa
+aa
+aa
+ap
+aa
+aa
+ac
+aH
+aZ
+aT
+aa
+aa
+aa
+aa
+aa
+"}
+(15,1,1) = {"
+aa
+aV
+aa
+aa
+as
+aV
+aC
+aa
+aa
+as
+ah
+aT
+aT
+aT
+aT
+aa
+aa
+aa
+aa
+aa
+"}
+(16,1,1) = {"
+aa
+aa
+aa
+aE
+aa
+aa
+aV
+aa
+aO
+aa
+aV
+aa
+aa
+aa
+aa
+aa
+aC
+aa
+aa
+aa
+"}
+(17,1,1) = {"
+aa
+aa
+aa
+aC
+aa
+ae
+aa
+aa
+aa
+aa
+aa
+ae
+aa
+aV
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(18,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+aa
+aa
+aC
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(19,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aa
+aa
+aa
+aa
+aa
+"}
+(20,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
