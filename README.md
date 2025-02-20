@@ -39,11 +39,6 @@
 	</a>
 </p>
 
-> [!TIP]
-> Хочешь впервые внести свой вклад, но не знаешь, с чего начать?<br>
-> Присоединяйся в наш [Дискорд](https://discord.com/invite/ss220), получи роль "Space Station 13", ознакомься с [FAQ](https://discord.com/channels/1097181193939730453/1202404779054202941) нашего трекера и приступай. За координацией, получением роли можно обратиться к Ведущему разработчику!<br>
-> Также ознакомься с [Руководством по разработке](https://wiki.ss220.club/index.php/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5)
-
 # Полезная информация и ссылки
 
 - ### [Dream Maker (DM) Reference](https://www.byond.com/docs/ref/)
@@ -58,11 +53,6 @@
 
 Все участники должны ознакомиться с нашим "Кодексом поведения", прежде чем принимать участие в жизни нашего сообщества.
 
-- ### [Contribution Guide](https://devdocs.paradisestation.org/contributing/)
-
-Не знаете, как принять участие и внести свой вклад? В этом руководстве дается обзор того, как делать комментарии, открывать Pull Requests и Issues.
-
-В этом руководстве также изложены наши стандарты [кода](https://github.com/ss220club/Paradise-SS220/blob/master/.github/CONTRIBUTING.md#specifications) и [маппинга](https://github.com/ss220club/Paradise-SS220/blob/master/.github/CONTRIBUTING.md#mapping-standards), соблюдения которых мы ожидаем при рассмотрении ваших изменений.
 
 - ### [Community Maintained Guide to Contributing](https://wiki.ss220.club/index.php/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5)
 
@@ -72,6 +62,7 @@
 > Билд Парадайз не предоставляет прекомпилированных бинарных файлов, вы должны пересобирать билд вручную, чтобы запустить свой локальный сервер.<br>
 > Сборка билда Парадайз легка и проста, все что вам нужно, это установить [BYOND](https://www.byond.com/download/).<br>
 > И ознакомиться с руководством [Installation Guide](.github/DOWNLOADING.md).
+> Так-же все права и лицензии билда идут к Парадайз, а не к создателям Space Station Series.
 
 - ### [TGUI Tutorial](tgui/docs/tutorial-and-examples.md)
 
