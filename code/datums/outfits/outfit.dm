@@ -37,14 +37,6 @@
 /datum/outfit/naked
 	name = "Naked"
 
-/datum/outfit/d_class
-    name = "Сотрудник D-Класса"
-    uniform = /obj/item/clothing/under/color/orange  // Оранжевая форма
-    id = /obj/item/card/id/d_class  // ID-карта класса D
-    shoes = /obj/item/clothing/shoes/black  // Черные ботинки
-    belt = null  // Без пояса
-
-
 /datum/outfit/proc/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	//to be overriden for customization depending on client prefs,species etc
 	return

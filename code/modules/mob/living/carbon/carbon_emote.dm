@@ -58,8 +58,8 @@
 /datum/emote/living/carbon/giggle
 	key = "giggle"
 	key_third_person = "giggles"
-	message = "giggles."
-	message_mime = "giggles silently!"
+	message = "хихикает."
+	message_mime = "бесшумно хихикает!"
 	muzzled_noises = list("bubbly")
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
 
@@ -86,21 +86,21 @@
 /datum/emote/living/carbon/kiss
 	key = "kiss"
 	key_third_person = "kisses"
-	message = "blows a kiss."
+	message = "делает воздушный поцелуй."
 	message_param = "blows a kiss at %t!"
 	muzzled_noises = list("smooching")
 
 /datum/emote/living/carbon/wave
 	key = "wave"
 	key_third_person = "waves"
-	message = "waves."
-	message_param = "waves at %t."
+	message = "машет рукой."
+	message_param = "машет рукой  %t."
 	hands_use_check = TRUE
 
 /datum/emote/living/carbon/yawn
 	key = "yawn"
 	key_third_person = "yawns"
-	message = "yawns."
+	message = "зевает."
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
 	muzzled_noises = list("tired", "lazy", "sleepy")
 
@@ -113,8 +113,8 @@
 /datum/emote/living/carbon/laugh
 	key = "laugh"
 	key_third_person = "laughs"
-	message = "laughs."
-	message_mime = "laughs silently!"
+	message = "смеёться."
+	message_mime = "бесшумно смеёться!"
 	message_param = "laughs at %t."
 	muzzled_noises = list("happy", "joyful")
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
@@ -127,8 +127,8 @@
 /datum/emote/living/groan
 	key = "groan"
 	key_third_person = "groans"
-	message = "groans!"
-	message_mime = "appears to groan!"
+	message = "стонет!"
+	message_mime = "кажется стонет!"
 	message_param = "groans at %t."
 	muzzled_noises = list("pained")
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH

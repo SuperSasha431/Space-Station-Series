@@ -33,15 +33,15 @@
 
 /datum/emote/living/carbon/human/airguitar
 	key = "airguitar"
-	message = "is strumming the air and headbanging like a safari chimp."
+	message = "играет на невидимой гитаре."
 	emote_type = EMOTE_VISIBLE
 	hands_use_check = TRUE
 
 /datum/emote/living/carbon/human/clap
 	key = "clap"
 	key_third_person = "claps"
-	message = "claps."
-	message_mime = "claps silently."
+	message = "хлопает."
+	message_mime = "бесшумно хлопает."
 	message_param = "claps at %t."
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
@@ -737,7 +737,7 @@
 /datum/emote/living/carbon/human/slime/squish
 	key = "squish"
 	key_third_person = "squishes"
-	message = "squishes."
+	message = "хлюпает"
 	message_param = "squishes at %t."
 	emote_type = EMOTE_AUDIBLE
 	age_based = TRUE
@@ -747,7 +747,7 @@
 /datum/emote/living/carbon/human/slime/bubble
 	key = "bubble"
 	key_third_person = "bubbles"
-	message = "bubbles."
+	message = "булькает."
 	message_param = "bubbles at %t."
 	emote_type = EMOTE_AUDIBLE
 	age_based = TRUE
@@ -759,9 +759,9 @@
 /datum/emote/living/carbon/human/slime/pop
 	key = "pop"
 	key_third_person = "pops"
-	message = "makes a popping sound."
+	message = "хлопает ртом."
 	message_param = "makes a popping sound at %t."
-	message_mime = "makes a silent pop."
+	message_mime = "издаёт тихий хлопок."
 	emote_type = EMOTE_AUDIBLE
 	age_based = TRUE
 	// CC0
