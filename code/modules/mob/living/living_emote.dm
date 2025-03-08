@@ -14,13 +14,13 @@
 
 /datum/emote/living/blush
 	key = "blush"
-	key_third_person = "blushes"
-	message = "blushes."
+	key_third_person = "blush"
+	message = "краснеет."
 
 /datum/emote/living/bow
 	key = "bow"
 	key_third_person = "bows"
-	message = "bows."
+	message = "кланяется."
 	message_param = "bows to %t."
 	message_postfix = "to %t."
 
@@ -42,8 +42,8 @@
 
 /datum/emote/living/collapse
 	key = "collapse"
-	key_third_person = "collapses"
-	message = "collapses!"
+	key_third_person = "collapse"
+	message = "падает!"
 	emote_type = EMOTE_VISIBLE
 
 /datum/emote/living/collapse/run_emote(mob/user, params, type_override, intentional)
@@ -54,13 +54,13 @@
 
 /datum/emote/living/dance
 	key = "dance"
-	key_third_person = "dances"
-	message = "dances around happily."
+	key_third_person = "dance"
+	message = "радостно танцует"
 
 /datum/emote/living/jump
 	key = "jump"
 	key_third_person = "jumps"
-	message = "jumps!"
+	message = "прыгает!"
 
 /datum/emote/living/deathgasp
 	key = "deathgasp"
@@ -72,13 +72,13 @@
 	unintentional_stat_allowed = DEAD
 	muzzle_ignore = TRUE // makes sure that sound is played upon death
 	bypass_unintentional_cooldown = TRUE  // again, this absolutely MUST play when a user dies, if it can.
-	message = "seizes up and falls limp, their eyes dead and lifeless..."
+	message = "замирает и бездыханно падает на пол, его глаза безжизненные..."
 	message_alien = "lets out a waning guttural screech, green blood bubbling from its maw..."
-	message_robot = "shudders violently for a moment before falling still, its eyes slowly darkening."
+	message_robot = "издаёт серию оскорбительных звуков, а затем падает выключя мониторы"
 	message_AI = "screeches, its screen flickering as its systems slowly halt."
 	message_larva = "lets out a sickly hiss of air and falls limply to the floor..."
 	message_monkey = "lets out a faint chimper as it collapses and stops moving..."
-	message_simple = "stops moving..."
+	message_simple = "перестаёт двигаться..."
 
 	mob_type_blacklist_typecache = list(
 		/mob/living/brain,
@@ -123,19 +123,19 @@
 /datum/emote/living/drool
 	key = "drool"
 	key_third_person = "drools"
-	message = "drools."
+	message = "пускает слюни."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/quiver
 	key = "quiver"
 	key_third_person = "quivers"
-	message = "quivers."
+	message = "дрожит."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/frown
 	key = "frown"
 	key_third_person = "frowns"
-	message = "frowns."
+	message = "хмурится."
 	message_param = "frowns at %t."
 
 /datum/emote/living/gag
@@ -165,19 +165,19 @@
 /datum/emote/living/look
 	key = "look"
 	key_third_person = "looks"
-	message = "looks."
+	message = "смотрит."
 	message_param = "looks at %t."
 
 /datum/emote/living/bshake
 	key = "bshake"
 	key_third_person = "bshakes"
-	message = "shakes."
+	message = "дрожит."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/shudder
 	key = "shudder"
 	key_third_person = "shudders"
-	message = "shudders."
+	message = "содрогается."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/point
@@ -217,9 +217,9 @@
 
 /datum/emote/living/scream
 	key = "scream"
-	key_third_person = "screams"
-	message = "screams!"
-	message_mime = "acts out a scream!"
+	key_third_person = "scream"
+	message = "кричит!"
+	message_mime = "бесшумно кричит!"
 	message_simple = "whimpers."
 	message_alien = "roars!"
 	emote_type = EMOTE_MOUTH | EMOTE_AUDIBLE
@@ -238,60 +238,60 @@
 /datum/emote/living/shake
 	key = "shake"
 	key_third_person = "shakes"
-	message = "shakes their head."
+	message = "мотает головой."
 
 /datum/emote/living/shiver
 	key = "shiver"
 	key_third_person = "shiver"
-	message = "shivers."
+	message = "дрожит."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/sigh
 	key = "sigh"
-	key_third_person = "sighs"
-	message = "sighs."
-	message_mime = "appears to sigh."
+	key_third_person = "sigh"
+	message = "вздыхает."
+	message_mime = "бесшумно вздыхает."
 	muzzled_noises = list("weak")
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
 
 /datum/emote/living/sigh/happy
 	key = "hsigh"
 	key_third_person = "hsighs"
-	message = "sighs contentedly."
+	message = "удовлетворённо вздыхает"
 	message_mime = "appears to sigh contentedly"
 	muzzled_noises = list("chill", "relaxed")
 
 /datum/emote/living/sit
 	key = "sit"
-	key_third_person = "sits"
-	message = "sits down."
+	key_third_person = "sit"
+	message = "сел."
 
 /datum/emote/living/smile
 	key = "smile"
-	key_third_person = "smiles"
-	message = "smiles."
+	key_third_person = "smile"
+	message = "улыбается."
 	message_param = "smiles at %t."
 
 /datum/emote/living/smug
 	key = "smug"
 	key_third_person = "smugs"
-	message = "grins smugly."
+	message = "скалится в улыбке."
 	message_param = "grins smugly at %t."
 
 /datum/emote/living/sniff
 	key = "sniff"
-	key_third_person = "sniffs"
-	message = "sniffs."
+	key_third_person = "sniff"
+	message = "нюхает."
 	emote_type = EMOTE_AUDIBLE
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/snore
 	key = "snore"
-	key_third_person = "snores"
-	message = "snores."
-	message_mime = "sleeps soundly."
+	key_third_person = "snore"
+	message = "храпит."
+	message_mime = "бесшумно спит."
 	message_simple = "stirs in their sleep."
-	message_robot = "dreams of electric sheep..."
+	message_robot = "мечтает о електро овцах..."
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
 	// lock it so these emotes can only be used while unconscious
 	stat_allowed = UNCONSCIOUS
@@ -316,8 +316,8 @@
 
 /datum/emote/living/stare
 	key = "stare"
-	key_third_person = "stares"
-	message = "stares."
+	key_third_person = "stare"
+	message = "пялиться."
 	message_param = "stares at %t."
 
 /datum/emote/living/strech
@@ -339,11 +339,11 @@
 /datum/emote/living/swear
 	key = "swear"
 	key_third_person = "swears"
-	message = "says a swear word!"
+	message = "говорит плохие слова!"
 	message_param = "says a swear word at %t!"
 	message_mime = "makes a rude gesture!"
 	message_simple = "makes an angry noise!"
-	message_robot = "makes a particularly offensive series of beeps!"
+	message_robot = "издаёт серию оскорбительных звуков!"
 	message_postfix = "at %t!"
 	emote_type = EMOTE_AUDIBLE | EMOTE_MOUTH
 
@@ -358,18 +358,18 @@
 
 /datum/emote/living/tremble
 	key = "tremble"
-	key_third_person = "trembles"
-	message = "trembles in fear!"
+	key_third_person = "tremble"
+	message = "дрожит в страхе!"
 
 /datum/emote/living/twitch
 	key = "twitch"
-	key_third_person = "twitches"
-	message = "twitches violently."
+	key_third_person = "twitch"
+	message = "сильно дёргается."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/twitch_s
 	key = "twitch_s"
-	message = "twitches."
+	message = "дёргается."
 	unintentional_stat_allowed = UNCONSCIOUS
 
 /datum/emote/living/whimper

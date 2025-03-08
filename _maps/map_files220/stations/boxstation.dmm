@@ -36425,7 +36425,7 @@
 	},
 /area/station/engineering/supermatter_room)
 "cST" = (
-/obj/item/beach_ball/holoball,
+/obj/effect/spawner/random/syndicate/loot,
 /turf/simulated/floor/plating,
 /area/station/maintenance/apmaint)
 "cSU" = (
@@ -43872,6 +43872,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/blood/maybe,
 /obj/machinery/light/small/nightshifted/north,
+/obj/effect/mob_spawn/human/corpse/assistant,
 /turf/simulated/floor/plating,
 /area/station/maintenance/asmaint2)
 "dIa" = (
@@ -50167,6 +50168,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/fore)
+"gde" = (
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/the_singularitygen/tesla,
+/turf/simulated/floor/plating,
+/area/station/engineering/secure_storage)
 "gdp" = (
 /obj/machinery/light/directional/north,
 /obj/structure/sign/poster/official/healthy{
@@ -55511,6 +55517,11 @@
 /obj/effect/spawner/window/reinforced/grilled,
 /turf/simulated/floor/plating,
 /area/station/command/office/hop)
+"hVN" = (
+/obj/effect/turf_decal/delivery/hollow,
+/obj/machinery/the_singularitygen,
+/turf/simulated/floor/plating,
+/area/station/engineering/secure_storage)
 "hWo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -55642,6 +55653,7 @@
 	pixel_x = 8;
 	pixel_y = 2
 	},
+/obj/item/melee/sickly_blade,
 /turf/simulated/floor/plating,
 /area/station/maintenance/asmaint2)
 "hYr" = (
@@ -59426,6 +59438,10 @@
 	icon_state = "dark"
 	},
 /area/station/engineering/atmos/storage)
+"jAT" = (
+/obj/item/melee/cosmic_blade,
+/turf/space,
+/area/space)
 "jAX" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/maintenance,
@@ -71590,6 +71606,7 @@
 "ofW" = (
 /obj/machinery/light/small/directional/east,
 /obj/structure/bookcase,
+/obj/item/crowbar,
 /turf/simulated/floor/wood/oak,
 /area/station/security/permabrig)
 "ogr" = (
@@ -82019,6 +82036,7 @@
 "rXS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
+/obj/effect/spawner/random/id_skins,
 /turf/simulated/floor/plating,
 /area/station/maintenance/assembly_line)
 "rXY" = (
@@ -87002,6 +87020,7 @@
 "tRE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/cobweb/right/rare,
+/obj/item/melee/void_blade,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "vault"
@@ -88551,6 +88570,12 @@
 	icon_state = "redfull"
 	},
 /area/station/security/permabrig)
+"utO" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance,
+/obj/item/melee/moon_blade,
+/turf/simulated/floor/plating,
+/area/station/maintenance/fpmaint2)
 "utP" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
 /obj/structure/cable{
@@ -116429,7 +116454,7 @@ aLu
 aGn
 aGn
 oVs
-aKa
+utO
 aGn
 aLu
 dwT
@@ -125513,8 +125538,8 @@ dar
 dcl
 ehs
 pCK
-cwU
-cwU
+hVN
+gde
 eMw
 lJs
 lJs
@@ -143989,7 +144014,7 @@ tPW
 lNE
 bWg
 aaa
-aaa
+jAT
 cuQ
 bGG
 jcc

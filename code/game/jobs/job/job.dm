@@ -1,14 +1,3 @@
-/datum/job/d_class
-    title = "Сотрудник D-Класса"
-    flag = JOB_D_CLASS  // Уникальный флаг для профессии
-    department_flag = DEPARTMENT_CIVILIAN  // Относится к гражданским
-    faction = "Nanotrasen"  // Или другая, если нужно
-    total_positions = -1  // Без ограничений по количеству
-    spawn_positions = 5  // Можно ограничить число спавнов
-    supervisors = "Сотрудники службы безопасности"  // Кто их контролирует
-    selection_color = "#FFA500"  // Оранжевый цвет в списке
-    outfit = /datum/outfit/d_class  // Какой набор одежды будет
-
 
 /datum/job
 
@@ -312,14 +301,3 @@
 	if(!H.mind.initial_account)
 		return
 	id.associated_account_number = H.mind.initial_account.account_number
-
-/datum/job/d_class
-    title = "Сотрудник D-Класса"
-    flag = JOB_D_CLASS  // Уникальный флаг профессии
-    department_flag = DEPARTMENT_CIVILIAN  // Принадлежит гражданскому отделу
-    faction = "Nanotrasen"  // Или другая фракция, если нужно
-    total_positions = -1  // Без ограничений по количеству
-    spawn_positions = 5  // Сколько может заспавниться
-    supervisors = "Сотрудники службы безопасности"  // Кто их контролирует
-    selection_color = "#FFA500"  // Оранжевый цвет в меню выбора
-    outfit = /datum/outfit/d_class  // Задаём униформу

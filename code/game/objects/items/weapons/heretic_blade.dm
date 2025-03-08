@@ -14,8 +14,3 @@
 	throwforce = 10
 	toolspeed = 0.375
 	hitsound = 'sound/items/bladeslice.ogg'
-	var/after_use_message = ""
-	/// Tracks how many times attack_self() is called so that breaking a blade while in an arena has to be intentional
-	var/escape_attempts = 0
-	/// Timer that resets your escape_attempts back to 0
-	var/escape_timer
