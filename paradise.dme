@@ -856,6 +856,7 @@
 #include "code\game\machinery\clonescanner.dm"
 #include "code\game\machinery\cryopod.dm"
 #include "code\game\machinery\dance_machine.dm"
+#include "code\game\machinery\debug_gravity_generator.dm"
 #include "code\game\machinery\defib_mount.dm"
 #include "code\game\machinery\deployable.dm"
 #include "code\game\machinery\dish_drive.dm"
