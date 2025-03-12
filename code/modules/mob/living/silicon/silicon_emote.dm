@@ -18,7 +18,7 @@
 /datum/emote/living/silicon/scream
 	key = "scream"
 	key_third_person = "screams"
-	message = "screams!"
+	message = "кричит!"
 	message_param = "screams at %t!"
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
@@ -28,7 +28,7 @@
 /datum/emote/living/silicon/ping
 	key = "ping"
 	key_third_person = "pings"
-	message = "pings."
+	message = "звенит."
 	message_param = "pings at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/ping.ogg"
@@ -36,14 +36,14 @@
 /datum/emote/living/silicon/buzz
 	key = "buzz"
 	key_third_person = "buzzes"
-	message = "buzzes."
+	message = "жужит."
 	message_param = "buzzes at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/buzz-sigh.ogg"
 
 /datum/emote/living/silicon/buzz2
 	key = "buzz2"
-	message = "emits an irritated buzzing sound."
+	message = "раздраженно жужит."
 	message_param = "emits an irritated buzzing sound at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/buzz-two.ogg"
@@ -51,7 +51,7 @@
 /datum/emote/living/silicon/beep
 	key = "beep"
 	key_third_person = "beeps"
-	message = "beeps."
+	message = "бипает."
 	message_param = "beeps at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/twobeep.ogg"
@@ -59,21 +59,21 @@
 /datum/emote/living/silicon/boop
 	key = "boop"
 	key_third_person = "boops"
-	message = "boops."
+	message = "бупает."
 	message_param = "boops at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/boop.ogg"
 
 /datum/emote/living/silicon/yes
 	key = "yes"
-	message = "emits an affirmative blip."
+	message = "издаёт положительный сигнал."
 	message_param = "emits an affirmative blip at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/synth_yes.ogg"
 
 /datum/emote/living/silicon/no
 	key = "no"
-	message = "emits a negative blip."
+	message = "издаёт отрицательный сигнал."
 	message_param = "emits a negative blip at %t."
 	emote_type = EMOTE_AUDIBLE
 	sound = "sound/machines/synth_no.ogg"
