@@ -9,6 +9,13 @@
 "aF" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/plasteel/dark,/area/station/security/main)
 "aI" = (/obj/item/grown/bananapeel,/obj/machinery/power/apc/directional/north,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
 "aK" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plating/damaged,/area/station/hallway/secondary/exit)
+"ai" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor,/area/station/engineering/hallway)
+"ak" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/service/hydroponics)
+"au" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"aw" = (/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"ax" = (/obj/effect/landmark/start/scientist,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"ay" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/service/bar)
+"aI" = (/obj/item/grown/bananapeel,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
 "aM" = (/obj/structure/sign/poster/official/bless_this_spess,/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/engineering/smes)
 "aW" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/catwalk,/area/station/engineering/hallway)
 "aZ" = (/obj/machinery/chem_master,/obj/effect/turf_decal/tile/yellow/anticorner{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
@@ -173,6 +180,76 @@
 "lL" = (/turf/simulated/floor/plating/damaged,/area/space)
 "lV" = (/obj/structure/disposalpipe/segment,/obj/effect/spawner/random/fungus/maybe,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay2)
 "lX" = (/obj/docking_port/stationary{dir = 2; dwidth = 16; height = 21; id = "emergency_home"; name = "emergency evac bay"; width = 41},/turf/space,/area/space)
+"bn" = (/obj/item/beacon,/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"bz" = (/obj/structure/cable/yellow{icon_state = "1-4"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor,/area/station/service/hydroponics)
+"bA" = (/obj/effect/landmark/start/engineer,/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/catwalk,/area/station/engineering/hallway)
+"bI" = (/obj/machinery/economy/vending/dinnerware,/obj/machinery/light/small/directional/north,/obj/item/mod/construction/shell,/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"cj" = (/obj/structure/table/glass,/obj/machinery/cell_charger,/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"cz" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/space)
+"cI" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/light/nightshifted/west,/turf/simulated/floor,/area/station/supply/office)
+"da" = (/obj/effect/spawner/window/shuttle,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor,/area/station/science/rnd)
+"dn" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/grass/jungle,/area/station/service/bar)
+"dp" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/space)
+"dq" = (/obj/effect/turf_decal/tile/purple/anticorner/contrasted{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"dQ" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"dS" = (/obj/machinery/computer/atmos_alert{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"dU" = (/obj/structure/chair/comfy/shuttle{dir = 8},/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"eo" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/station/supply/office)
+"eq" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"er" = (/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"eu" = (/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"eB" = (/obj/structure/table/reinforced,/obj/machinery/door/window/antitheft/normal{dir = 8},/obj/machinery/cell_charger,/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering/atmos{dir = 8},/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"eC" = (/obj/structure/chair/comfy/corp{dir = 8},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"eS" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"eV" = (/obj/structure/closet/emcloset,/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"eY" = (/obj/machinery/gravity_generator/main/station,/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"fm" = (/obj/structure/sink/directional/east,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/wood,/area/station/service/bar)
+"fp" = (/obj/structure/window/reinforced{dir = 8},/obj/item/bedsheet/cmo,/obj/structure/bed/pod,/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"fx" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/hallway/primary/port)
+"fy" = (/obj/effect/turf_decal/tile/yellow/half{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"fD" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/economy/vending/engivend,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"fM" = (/obj/machinery/economy/vending/cigarette/beach/centcomm,/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"fP" = (/obj/effect/turf_decal/tile/purple/half{dir = 8},/obj/machinery/r_n_d/circuit_imprinter/upgraded,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"ge" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/secure_storage)
+"gk" = (/turf/space,/area/space)
+"gx" = (/obj/structure/plasticflaps/mining,/turf/simulated/floor,/area/station/hallway/secondary/entry)
+"gE" = (/obj/effect/turf_decal/tile/purple/anticorner/contrasted,/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"gI" = (/obj/structure/table/wood,/obj/item/reagent_containers/drinks/bottle/random_drink,/turf/simulated/floor/wood,/area/station/service/bar)
+"gW" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/hallway/primary/port)
+"hc" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"hm" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/service/hydroponics)
+"hn" = (/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/structure/rack,/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"ho" = (/obj/machinery/economy/vending/medical,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"ht" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay2)
+"hC" = (/turf/simulated/floor/catwalk,/area/space)
+"hG" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay)
+"hT" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor,/area/station/science/rnd)
+"ii" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"im" = (/obj/machinery/barsign,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"ip" = (/obj/item/beacon,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"it" = (/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"iA" = (/turf/simulated/floor/wood,/area/station/hallway/secondary/entry)
+"iY" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"jf" = (/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"jt" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/effect/mapping_helpers/airlock/access/all/supply,/obj/machinery/door/airlock/mining/glass,/turf/simulated/floor,/area/station/supply/office)
+"ju" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/station/medical/medbay2)
+"jv" = (/obj/structure/lattice,/turf/simulated/wall/indestructible/whiteshuttle,/area/space)
+"jO" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"ke" = (/obj/structure/janitorialcart{dir = 8},/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"kk" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 10},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"ko" = (/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering,/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering/atmos,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/janitor)
+"kp" = (/obj/structure/chair{dir = 1},/turf/simulated/floor,/area/station/supply/office)
+"kA" = (/obj/structure/sign/chemistry,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/chemistry)
+"kF" = (/obj/effect/turf_decal/tile/purple/half{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"kM" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/wood,/area/station/service/bar)
+"kS" = (/obj/machinery/door/airlock/medical/glass,/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"kT" = (/obj/machinery/light/directional/east,/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"kU" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/hallway/primary/central)
+"la" = (/obj/structure/table,/obj/effect/mapping_helpers/airlock/windoor/access/any/supply{dir = 1},/obj/machinery/cell_charger,/turf/simulated/floor,/area/station/supply/office)
+"lo" = (/obj/machinery/conveyor{dir = 4},/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
+"lq" = (/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"lr" = (/obj/structure/table/reinforced,/obj/machinery/chem_dispenser/soda/upgraded,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/station/service/bar)
+"lF" = (/obj/machinery/power/apc/directional/north,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
 "lZ" = (/obj/machinery/computer/supplycomp{dir = 8},/turf/simulated/floor/plating,/area/station/supply/miningdock)
 "mc" = (/obj/structure/chair/stool{dir = 1},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
 "mp" = (/obj/machinery/mineral/ore_redemption/upgraded,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/transparent/glass,/area/station/science/rnd)
@@ -507,6 +584,186 @@
 "Fe" = (/turf/simulated/floor/plating,/area/station/engineering/atmos)
 "Ff" = (/obj/machinery/message_server,/turf/simulated/floor/bluegrid,/area/station/science/rnd)
 "Fm" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/security/brig)
+"mt" = (/obj/effect/landmark/start/research_director,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"mv" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/wood,/area/station/hallway/secondary/entry)
+"mx" = (/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"mE" = (/obj/machinery/atmospherics/pipe/manifold/visible/blue,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"mG" = (/obj/machinery/economy/vending/medical,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"mN" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 9},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"mO" = (/obj/item/kirbyplants,/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"mW" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/service/bar)
+"ne" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"ng" = (/obj/machinery/power/apc/directional/north,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"nn" = (/obj/structure/lattice,/obj/structure/lattice,/turf/space,/area/space)
+"no" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor,/area/station/hallway/secondary/entry)
+"nq" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/machinery/power/apc/directional/west,/turf/simulated/floor,/area/station/supply/office)
+"nw" = (/obj/structure/sign/poster/official/air1,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/hardsuitstorage)
+"ny" = (/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"nE" = (/obj/machinery/atmospherics/portable/canister/oxygen,/turf/simulated/floor/engine/o2,/area/station/engineering/atmos)
+"nT" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"nX" = (/obj/machinery/door/airlock/atmos/glass,/obj/effect/mapping_helpers/airlock/access/any/engineering/atmos,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"op" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/janitor)
+"ow" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"ox" = (/obj/machinery/door/airlock/maintenance,/obj/effect/mapping_helpers/airlock/access/all/medical,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"oy" = (/obj/structure/closet/secure_closet/engineering_personal,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"oC" = (/obj/machinery/r_n_d/server,/turf/simulated/floor/bluegrid,/area/station/science/rnd)
+"oD" = (/obj/structure/closet/crate/engineering,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"oK" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"oP" = (/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"pb" = (/obj/machinery/atmospherics/trinary/mixer{dir = 1},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"pi" = (/obj/structure/lattice,/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/space,/area/space)
+"pj" = (/obj/machinery/conveyor,/obj/effect/mapping_helpers/airlock/windoor/access/any/supply,/turf/simulated/floor,/area/station/supply/sorting)
+"pq" = (/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"py" = (/obj/structure/closet/emcloset,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"pD" = (/turf/simulated/floor,/area/station/engineering/secure_storage)
+"pJ" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on{dir = 8},/turf/simulated/floor/engine/o2,/area/station/engineering/atmos)
+"pV" = (/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"pX" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"qm" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"qn" = (/obj/structure/rack,/obj/item/clothing/glasses/meson,/obj/item/geiger_counter,/obj/item/stack/sheet/mineral/uranium/fifty,/obj/item/stack/sheet/mineral/uranium/fifty,/obj/item/stack/sheet/mineral/uranium/fifty,/obj/item/stack/sheet/mineral/uranium/fifty,/obj/item/stack/sheet/mineral/uranium/fifty,/obj/item/stack/sheet/mineral/plasma/fifty,/obj/item/stack/sheet/mineral/plasma/fifty,/obj/item/stack/sheet/mineral/plasma/fifty,/obj/item/stack/sheet/mineral/plasma/fifty,/obj/item/stack/sheet/mineral/plasma/fifty,/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"qs" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/smes/engineering,/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"qv" = (/obj/machinery/bodyscanner,/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"qy" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/engineering/mechanic)
+"qz" = (/obj/effect/turf_decal/tile/blue/anticorner,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 10},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"qE" = (/turf/simulated/floor/plating,/area/space)
+"qI" = (/obj/structure/table/wood/poker,/turf/simulated/floor/carpet/blue,/area/station/service/bar)
+"qP" = (/obj/item/kirbyplants/plant22,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"qY" = (/obj/effect/spawner/window/shuttle,/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/space,/area/station/science/rnd)
+"ra" = (/obj/structure/chair/office/light{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"rb" = (/obj/effect/mapping_helpers/airlock/windoor/access/any/supply{dir = 4},/turf/simulated/floor,/area/station/supply/office)
+"rj" = (/obj/machinery/economy/vending/hydronutrients,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"rn" = (/obj/machinery/door/window/antitheft/reversed{dir = 4},/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
+"rq" = (/obj/item/slime_extract,/obj/item/clothing/head/collectable/tophat{pixel_y = 6; pixel_x = -1},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"rK" = (/obj/structure/table,/obj/machinery/reagentgrinder,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"rL" = (/obj/effect/landmark/start/engineer,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"sd" = (/obj/effect/turf_decal/tile/blue{dir = 8},/obj/effect/turf_decal/tile/blue{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"sr" = (/obj/effect/mapping_helpers/airlock/access/all/science,/obj/machinery/door/airlock/research/glass,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/station/science/rnd)
+"ss" = (/obj/effect/mapping_helpers/airlock/access/all/service/janitor,/obj/machinery/door/airlock,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"sw" = (/obj/machinery/computer/supplycomp{dir = 4},/turf/simulated/floor,/area/station/supply/office)
+"sG" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"sH" = (/obj/effect/landmark/start/botanist,/turf/simulated/floor,/area/station/service/hydroponics)
+"sI" = (/obj/effect/mapping_helpers/airlock/access/all/engineering/general,/obj/machinery/door/airlock/engineering,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/engineering/hallway)
+"sL" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/service/janitor)
+"tc" = (/obj/machinery/smartfridge,/obj/effect/mapping_helpers/airlock/windoor/access/any/medical/chemistry{dir = 1},/obj/effect/mapping_helpers/airlock/windoor/access/any/medical/chemistry,/obj/machinery/door/window/antitheft/reversed,/obj/machinery/door/window/antitheft/reversed{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"td" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor,/area/station/supply/office)
+"tg" = (/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "1-4"},/obj/machinery/economy/vending/chefdrobe,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"tq" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"tt" = (/obj/structure/closet/secure_closet/reagents,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"tw" = (/obj/machinery/cryopod/right,/obj/effect/turf_decal/tile/blue/anticorner{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"tG" = (/obj/item/flash,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"tK" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"tO" = (/obj/item/reagent_containers/glass/beaker,/obj/structure/table/reinforced,/obj/machinery/reagentgrinder,/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"tY" = (/obj/machinery/door/airlock/public/glass,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/service/bar)
+"ug" = (/obj/effect/turf_decal/tile/purple/half{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"un" = (/obj/structure/window/reinforced{dir = 1},/obj/effect/spawner/random/barrier/grille_maybe,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"uo" = (/obj/structure/table/glass,/obj/effect/turf_decal/tile/yellow/anticorner,/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"us" = (/obj/machinery/door/airlock/medical/glass,/obj/effect/mapping_helpers/airlock/access/any/medical/chemistry,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"uy" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/obj/item/beacon,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"uG" = (/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 10},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"uL" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/chair/comfy/shuttle,/obj/effect/landmark/start/engineer,/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor,/area/station/engineering/secure_storage)
+"uQ" = (/obj/machinery/plantgenes,/obj/item/storage/box/disks_plantgene,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"uS" = (/obj/structure/window/reinforced,/obj/machinery/light/directional/west,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"uV" = (/turf/simulated/floor,/area/station/supply/office)
+"uW" = (/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"uY" = (/obj/machinery/door/airlock/public/glass,/turf/simulated/floor,/area/station/service/bar)
+"vc" = (/obj/effect/landmark/start/janitor,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"vg" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/atmos)
+"vi" = (/obj/machinery/door/window{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering{dir = 4},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"vu" = (/obj/machinery/computer/monitor{name = "Grid Power Monitoring Computer"},/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"vz" = (/obj/structure/sign/poster/official/cohiba_robusto_ad,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"vA" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/engineering/smes)
+"vI" = (/obj/structure/closet/emcloset,/turf/simulated/floor/plating/damaged,/area/station/engineering/hardsuitstorage)
+"vQ" = (/obj/structure/table/glass,/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"vS" = (/obj/effect/mapping_helpers/airlock/windoor/access/any/service/kitchen,/obj/structure/table/reinforced,/obj/machinery/door/window/antitheft/normal{dir = 1},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"wl" = (/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor,/area/station/supply/office)
+"wn" = (/obj/machinery/light/directional/east,/obj/structure/cable/yellow{icon_state = "2-4"},/obj/machinery/power/apc/directional/east,/turf/simulated/floor/catwalk,/area/station/engineering/smes)
+"wE" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"wF" = (/obj/machinery/economy/vending/autodrobe,/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"wI" = (/obj/machinery/light/directional/west,/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"wJ" = (/obj/structure/chair/comfy/corp,/obj/effect/landmark/start/assistant,/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"xf" = (/obj/structure/sign/securearea,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/atmos)
+"xi" = (/obj/structure/cable/yellow{icon_state = "2-8"},/turf/space,/area/space)
+"xj" = (/obj/machinery/atmospherics/portable/canister/nitrogen,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"xm" = (/obj/structure/table/reinforced,/obj/effect/mapping_helpers/airlock/windoor/access/all/service/kitchen,/turf/simulated/floor,/area/station/service/hydroponics)
+"xv" = (/obj/machinery/economy/vending/janidrobe,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"xB" = (/obj/structure/closet/crate/engineering/electrical,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"xS" = (/obj/machinery/light/small/nightshifted/west,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"xW" = (/obj/machinery/conveyor,/turf/simulated/floor,/area/station/supply/sorting)
+"ya" = (/obj/structure/grille,/turf/space,/area/space)
+"yc" = (/obj/machinery/chem_dispenser/upgraded,/obj/effect/turf_decal/tile/yellow/half{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"yr" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "2-4"},/turf/space,/turf/simulated/floor,/area/station/engineering/hallway)
+"ys" = (/obj/item/kirbyplants/plant11,/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"yv" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 1},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"yw" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"yK" = (/obj/effect/turf_decal/tile/purple/anticorner/contrasted{dir = 4},/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"yS" = (/obj/structure/table/reinforced,/obj/effect/mapping_helpers/airlock/windoor/access/any/service/kitchen,/obj/machinery/door/window/antitheft/normal{dir = 1},/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"yW" = (/obj/machinery/door/window,/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"zh" = (/obj/effect/spawner/window/reinforced/grilled,/turf/simulated/floor,/area/station/supply/office)
+"zq" = (/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"zr" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/wood,/area/station/service/bar)
+"zx" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"zy" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/hydroponics)
+"zB" = (/obj/machinery/computer/crew/advanced{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"zD" = (/obj/structure/table,/turf/simulated/floor,/area/station/engineering/secure_storage)
+"zH" = (/obj/effect/turf_decal/tile/purple/half{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"zI" = (/obj/structure/cable/yellow{icon_state = "0-2"},/obj/machinery/power/apc/directional/north,/obj/item/kirbyplants/plant22,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"zN" = (/obj/machinery/chem_heater,/obj/effect/turf_decal/tile/yellow/anticorner{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"zZ" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"Af" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/meter,/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 8},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Am" = (/turf/simulated/floor/transparent/glass,/area/station/hallway/secondary/entry)
+"Az" = (/obj/structure/grille,/turf/simulated/floor/plating/damaged,/area/space)
+"AC" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/chemistry)
+"AD" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"AQ" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay2)
+"AW" = (/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/structure/rack,/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"Bc" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/supply/miningdock)
+"Bl" = (/obj/structure/chair,/turf/simulated/floor,/area/station/supply/office)
+"Bn" = (/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor/plasteel/dark,/area/station/supply/lobby)
+"Bo" = (/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"Bq" = (/obj/machinery/smartfridge,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/service/kitchen)
+"By" = (/obj/item/kirbyplants/plant30,/obj/effect/turf_decal/tile/blue/half{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"Bz" = (/obj/item/beacon,/turf/simulated/floor,/area/station/supply/office)
+"BC" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"BJ" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"BL" = (/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"BN" = (/obj/machinery/door/window{dir = 4},/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering{dir = 4},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"BQ" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plating,/area/space)
+"BS" = (/obj/structure/closet/secure_closet/bar,/obj/machinery/light/small/directional/north,/turf/simulated/floor,/area/station/service/bar)
+"BU" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay3)
+"BZ" = (/obj/effect/turf_decal/tile/purple/half,/obj/structure/rack,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Cc" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/machinery/light/directional,/turf/simulated/floor/grass/jungle,/area/station/service/bar)
+"Cd" = (/obj/structure/closet/secure_closet/freezer/products,/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"Ce" = (/obj/structure/plasticflaps,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"Cf" = (/obj/structure/closet/firecloset/full,/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"Cj" = (/obj/machinery/chem_dispenser/upgraded,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Cm" = (/obj/machinery/door/airlock/public/glass,/turf/simulated/floor,/area/station/hallway/secondary/entry)
+"Cx" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"CI" = (/obj/structure/chair/comfy/corp{dir = 8},/turf/simulated/floor/carpet/blue,/area/station/service/bar)
+"CS" = (/obj/structure/closet/radiation,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/engineering/hallway)
+"CU" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"CV" = (/obj/machinery/door/airlock/public/glass,/turf/simulated/floor/wood,/area/station/service/bar)
+"Db" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"Dc" = (/obj/machinery/door/window,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"Dg" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/service/kitchen)
+"Dh" = (/obj/machinery/power/port_gen/pacman/mrs/upgraded,/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"Dj" = (/obj/structure/rack,/obj/item/holosign_creator/engineering,/obj/item/holosign_creator/engineering,/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"Do" = (/obj/machinery/power/apc/directional/south,/obj/structure/cable/yellow,/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"Dv" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/supply/lobby)
+"Dy" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on{dir = 8},/turf/simulated/floor/engine/n2,/area/station/engineering/atmos)
+"DX" = (/obj/effect/turf_decal/tile/blue/half{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"Eg" = (/obj/machinery/conveyor_switch/oneway,/turf/simulated/floor,/area/station/supply/office)
+"Eh" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"Ep" = (/obj/structure/sign/science,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/science/rnd)
+"Eu" = (/obj/machinery/computer/shuttle/mining,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"Ew" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/hallway)
+"Ey" = (/obj/machinery/kitchen_machine/microwave/upgraded,/obj/structure/table/reinforced,/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"ER" = (/obj/structure/closet/secure_closet/medical1,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"EX" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/port)
+"Fa" = (/obj/machinery/atmospherics/pipe/manifold/visible/blue{dir = 1},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Fb" = (/obj/structure/chair/plastic{dir = 8},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"Fc" = (/obj/structure/sign/electricshock,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/hallway/primary/port)
+"Fe" = (/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Ff" = (/obj/machinery/message_server,/turf/simulated/floor/bluegrid,/area/station/science/rnd)
 "Fq" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
 "Fs" = (/turf/simulated/floor/plating/damaged,/area/station/engineering/hardsuitstorage)
 "Fw" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/hardsuitstorage)
@@ -861,6 +1118,189 @@
 "ZG" = (/obj/machinery/atmospherics/portable/canister/nitrogen,/turf/simulated/floor/engine/n2,/area/station/engineering/atmos)
 "ZN" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/effect/spawner/random/barrier/grille_maybe,/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/catwalk,/area/station/maintenance/aft)
 "ZT" = (/obj/structure/railing{dir = 8},/turf/simulated/floor/plasteel{icon_state = "stairs-l"},/area/station/supply/expedition/gate)
+"FN" = (/obj/effect/landmark/start/chef,/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"FO" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"FR" = (/obj/structure/chair{dir = 8},/obj/machinery/alarm/all_access/directional/north,/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"Gd" = (/obj/machinery/computer/security/mining,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"Gf" = (/obj/machinery/door/airlock/public/glass,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/service/kitchen)
+"Gn" = (/obj/structure/kitchenspike,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"Gq" = (/turf/simulated/floor/plasteel/white,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/chemistry)
+"Gt" = (/obj/structure/rack,/obj/item/mop/advanced,/obj/item/reagent_containers/glass/bucket,/obj/item/storage/box/lights/mixed,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"Gx" = (/obj/structure/bed/roller,/obj/effect/turf_decal/tile/blue/anticorner{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"GF" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/plasteel/dark,/area/station/engineering/atmos)
+"GL" = (/obj/machinery/autolathe/upgraded,/turf/simulated/floor/transparent/glass,/area/station/science/rnd)
+"GQ" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
+"GS" = (/obj/structure/dispenser/oxygen,/obj/structure/cable/yellow{icon_state = "2-8"},/turf/space,/turf/simulated/floor,/area/station/engineering/hallway)
+"GU" = (/obj/effect/landmark/start/bartender,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/wood,/area/station/service/bar)
+"Ha" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Hc" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Hi" = (/obj/machinery/door/airlock/medical/glass,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"Hj" = (/obj/structure/closet/secure_closet/medical3,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Hl" = (/obj/effect/landmark/start/engineer,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"Hr" = (/obj/machinery/door/window{dir = 4},/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering{dir = 4},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/catwalk,/area/station/engineering/mechanic)
+"HF" = (/obj/machinery/hydroponics/constructable,/obj/item/reagent_containers/glass/bucket,/obj/item/reagent_containers/glass/bucket,/obj/structure/sink/kitchen/east,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"HH" = (/obj/structure/table/reinforced,/obj/effect/mapping_helpers/airlock/windoor/access/any/medical/chemistry{dir = 1},/obj/machinery/door/window/antitheft/reversed{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"HJ" = (/obj/machinery/door/airlock/external,/turf/space,/area/station/engineering/mechanic)
+"Io" = (/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"Ir" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/smes)
+"Iv" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/closet/secure_closet/medical2,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"IE" = (/obj/effect/mob_spawn/human/corpse/random_species,/turf/space,/area/space)
+"IM" = (/obj/machinery/hydroponics/constructable,/turf/simulated/floor,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"IP" = (/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"IT" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"IX" = (/obj/structure/chair/stool{dir = 1},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"Jo" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/science/rnd)
+"JM" = (/obj/structure/chair/comfy/corp{dir = 1},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"JN" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"JO" = (/obj/structure/table/wood/poker,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"Kd" = (/obj/machinery/door/window/antitheft/normal{dir = 8},/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering/atmos{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 8},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Kh" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/engineering/atmos)
+"KC" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/atmos)
+"KL" = (/obj/structure/table/reinforced,/obj/machinery/chem_dispenser/beer/upgraded,/turf/simulated/floor,/area/station/service/bar)
+"KO" = (/obj/structure/plasticflaps/mining,/turf/simulated/floor,/area/station/supply/office)
+"KR" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"KU" = (/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"KW" = (/obj/structure/table,/obj/item/tank/jetpack/oxygen,/obj/item/mod/construction/boots,/obj/item/mod/construction/chestplate,/obj/item/mod/construction/gauntlets,/obj/item/mod/construction/helmet,/obj/item/mod/construction/plating/advanced,/obj/item/mod/construction/shell,/turf/simulated/floor,/area/station/supply/office)
+"Lc" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/supply/miningdock)
+"Lh" = (/obj/structure/table/glass,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"Lm" = (/obj/machinery/door/airlock/service/glass,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/station/service/hydroponics)
+"Lu" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/cyan,/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"Lz" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 8},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"LF" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 9},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"LJ" = (/obj/machinery/door/window/antitheft/reversed{dir = 1},/obj/machinery/power/terminal,/obj/structure/cable/yellow,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"LM" = (/obj/machinery/atmospherics/portable/canister/toxins,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"LS" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"LU" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"LZ" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"Mg" = (/obj/structure/chair/comfy/corp{dir = 4},/turf/simulated/floor/carpet/blue,/area/station/service/bar)
+"Mi" = (/obj/structure/table/glass,/obj/item/reagent_containers/glass/beaker/bluespace{pixel_w = -5; pixel_y = 8},/obj/item/reagent_containers/hypospray{pixel_w = 6},/obj/effect/turf_decal/tile/yellow/anticorner{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"Mq" = (/obj/machinery/atmospherics/unary/portables_connector,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Ms" = (/obj/machinery/atmospherics/portable/canister/air,/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Mx" = (/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"My" = (/obj/machinery/atmospherics/pipe/manifold/visible/blue{dir = 4},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"MG" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"MJ" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/chemistry)
+"ML" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"MM" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/smes)
+"MQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"MW" = (/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"Na" = (/turf/simulated/wall/indestructible/whiteshuttle/nodiagonal,/area/station/engineering/hardsuitstorage)
+"Nd" = (/obj/structure/table/reinforced,/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"Ng" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"Ni" = (/obj/structure/table/wood/poker,/obj/effect/spawner/random/food_or_drink,/turf/simulated/floor/carpet/blue,/area/station/service/bar)
+"Nr" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/hallway/secondary/entry)
+"Nt" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/hallway/primary/central)
+"Nu" = (/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/plasteel/dark,/area/station/supply/lobby)
+"Nv" = (/obj/machinery/suit_storage_unit,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"Nx" = (/obj/effect/turf_decal/tile/purple/half{dir = 4},/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/light/nightshifted/east,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"NC" = (/turf/simulated/floor/catwalk,/area/station/engineering/hallway)
+"ND" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"NI" = (/obj/machinery/sleeper/upgraded,/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"NL" = (/obj/effect/mapping_helpers/airlock/access/all/security,/obj/machinery/door/airlock/security/glass,/turf/simulated/floor/plasteel/dark,/area/space)
+"NP" = (/obj/structure/cable/yellow,/turf/space,/area/space)
+"NR" = (/obj/item/storage/firstaid/brute,/obj/item/storage/firstaid/fire{pixel_y = 5; pixel_x = 6},/obj/item/storage/firstaid/machine{pixel_x = -6; pixel_y = -5},/obj/structure/table/glass,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"NX" = (/obj/machinery/atmospherics/portable/canister/oxygen,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"NY" = (/obj/effect/turf_decal/tile/purple/anticorner/contrasted{dir = 8},/obj/machinery/power/smes/upgraded,/obj/structure/cable/yellow{icon_state = "4-8"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"NZ" = (/obj/structure/chair{pixel_y = -2},/obj/effect/turf_decal/tile/blue/half{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"Og" = (/turf/simulated/floor/plasteel/dark,/area/station/supply/lobby)
+"On" = (/obj/structure/rack,/obj/item/stack/rods/twentyfive,/obj/item/stack/rods/twentyfive,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/obj/item/stack/sheet/metal/ten,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Ot" = (/obj/machinery/mineral/equipment_vendor,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"OK" = (/obj/structure/table/wood,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/wood,/area/station/service/bar)
+"OO" = (/obj/effect/spawner/random/barrier/grille_maybe,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"Pi" = (/obj/machinery/recycler,/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
+"Po" = (/obj/machinery/chem_heater,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Pv" = (/obj/structure/lattice,/obj/structure/cable/yellow{icon_state = "2-4"},/turf/space,/area/space)
+"PD" = (/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"PJ" = (/obj/structure/lattice,/turf/space,/area/space)
+"PP" = (/obj/effect/turf_decal/tile/purple/half,/obj/structure/table,/obj/structure/cable/yellow{icon_state = "2-8"},/obj/structure/cable/yellow{icon_state = "2-4"},/obj/machinery/power/apc/directional/south,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"PU" = (/obj/structure/window/reinforced,/obj/structure/dispenser/oxygen,/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"PX" = (/turf/simulated/floor/carpet/blue,/area/station/hallway/secondary/entry)
+"Qd" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 1},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Qf" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/engineering/mechanic)
+"Qn" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"Qr" = (/obj/machinery/door/airlock/titanium,/turf/simulated/floor/plating,/area/station/supply/miningdock)
+"Qs" = (/obj/structure/table/glass,/obj/item/clothing/neck/stethoscope,/obj/effect/turf_decal/tile/blue{dir = 4},/obj/effect/turf_decal/tile/blue{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"QB" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor,/area/station/service/hydroponics)
+"QH" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/science/rnd)
+"QK" = (/obj/machinery/economy/vending/vulpix,/obj/machinery/light/directional/west,/turf/simulated/floor/transparent/glass,/area/station/hallway/secondary/entry)
+"QL" = (/obj/structure/closet/l3closet/janitor,/turf/simulated/floor/plasteel/dark,/area/station/service/janitor)
+"Rd" = (/obj/machinery/economy/vending/boozeomat,/obj/machinery/light/small/directional/north,/turf/simulated/floor,/area/station/service/bar)
+"Rk" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/grass/jungle,/area/station/service/bar)
+"Rn" = (/obj/machinery/economy/vending/clothing/free,/turf/simulated/floor/transparent/glass,/area/station/hallway/secondary/entry)
+"Ru" = (/obj/machinery/door/airlock/titanium,/turf/simulated/floor/wood,/area/station/hallway/secondary/entry)
+"RH" = (/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"RK" = (/obj/machinery/suit_storage_unit,/obj/structure/window/reinforced,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"Sb" = (/turf/simulated/floor/transparent/glass,/area/station/service/bar)
+"Sc" = (/obj/effect/turf_decal/tile/purple/half,/obj/structure/closet/crate/secure/scisec,/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Se" = (/obj/machinery/economy/vending/hydroseeds,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"Sl" = (/obj/machinery/economy/vending/wallmed/emergency_ntmed/directional/north,/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"SN" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/hallway/secondary/entry)
+"SQ" = (/obj/machinery/door/window{dir = 1},/obj/effect/mapping_helpers/airlock/windoor/access/all/engineering{dir = 1},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor,/area/station/engineering/secure_storage)
+"SR" = (/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"SV" = (/obj/effect/spawner/window/shuttle,/turf/space,/area/station/hallway/secondary/entry)
+"Td" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable/yellow{icon_state = "0-8"},/turf/simulated/floor/plasteel/dark,/area/station/engineering/smes)
+"Te" = (/obj/machinery/door/window/antitheft/reversed{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Tg" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/computer/operating{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 10},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Tn" = (/obj/item/kirbyplants,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"Tz" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor,/area/station/engineering/hallway)
+"TK" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"TN" = (/turf/space,/turf/simulated/floor,/area/station/engineering/hallway)
+"TO" = (/obj/machinery/power/smes,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"TR" = (/obj/structure/sign/cargo,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/supply/miningdock)
+"TS" = (/obj/structure/reagent_dispensers/watertank/high,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"Uh" = (/obj/structure/chair/comfy/corp{dir = 4},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"Us" = (/obj/effect/turf_decal/tile/purple/half{dir = 8},/obj/structure/closet/secure_closet/scientist,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"UQ" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/kitchen)
+"UV" = (/turf/simulated/floor/catwalk,/area/station/engineering/secure_storage)
+"UY" = (/obj/structure/chair/light{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Vc" = (/obj/structure/closet/secure_closet/engineering_electrical,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor,/area/station/engineering/hallway)
+"Vd" = (/obj/machinery/door/airlock/public/glass,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 4},/turf/simulated/floor/plasteel/dark,/area/station/medical/medbay)
+"Vq" = (/obj/item/kirbyplants,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Vr" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 6},/turf/simulated/floor/plasteel/dark,/area/station/hallway/primary/central)
+"Vu" = (/obj/machinery/optable,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Vx" = (/obj/structure/sign/poster/contraband/fun_police,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"Vy" = (/obj/structure/musician/piano,/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"Vz" = (/obj/machinery/economy/vending/wallmed/emergency_ntmed/directional/north,/obj/machinery/light/directional/north,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"VC" = (/obj/machinery/door/airlock/external,/turf/simulated/floor,/area/station/engineering/hardsuitstorage)
+"VL" = (/obj/structure/grille,/obj/structure/lattice,/obj/structure/lattice,/turf/simulated/floor/plating/damaged,/area/space)
+"VT" = (/obj/effect/turf_decal/tile/purple{dir = 1},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Wa" = (/obj/structure/sink/directional/west,/obj/effect/turf_decal/tile/yellow/half,/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"Wc" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 1},/obj/machinery/economy/vending/medical,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Wf" = (/obj/machinery/power/port_gen/pacman/upgraded,/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"Wj" = (/obj/machinery/chem_master/condimaster,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Wp" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/dark,/area/station/medical/chemistry)
+"Wr" = (/obj/structure/window/full/plasmareinforced,/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Ws" = (/obj/item/storage/toolbox/emergency,/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"WU" = (/obj/effect/turf_decal/tile/purple/anticorner/contrasted{dir = 1},/obj/machinery/r_n_d/protolathe/upgraded,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Xa" = (/obj/structure/closet/firecloset/full,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"Xk" = (/obj/effect/turf_decal/tile/purple/half,/obj/structure/table,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"Xn" = (/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
+"Xw" = (/obj/machinery/door/airlock/titanium,/turf/simulated/floor/plating,/area/station/hallway/secondary/entry)
+"XB" = (/obj/effect/turf_decal/tile/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay)
+"XE" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"XI" = (/turf/simulated/wall/indestructible/whiteshuttle,/area/station/engineering/mechanic)
+"XK" = (/obj/item/crowbar/red,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor,/area/station/engineering/hallway)
+"XU" = (/obj/machinery/seed_extractor,/obj/machinery/light/small/directional/north,/turf/simulated/floor/plasteel/dark,/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"XZ" = (/obj/effect/turf_decal/tile/yellow/half{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/simulated/floor/plasteel/white,/area/station/medical/chemistry)
+"Yd" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Yf" = (/obj/machinery/kitchen_machine/grill/upgraded,/turf/simulated/floor/plasteel/freezer,/turf/simulated/floor/plasteel/freezer,/area/station/service/kitchen)
+"Yj" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/plasteel/dark,/area/station/engineering/mechanic)
+"Yk" = (/obj/structure/sign/botany,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/hydroponics)
+"Yl" = (/obj/effect/spawner/window/shuttle,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"Yo" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "1-8"},/turf/simulated/floor,/area/station/engineering/hallway)
+"Yp" = (/obj/machinery/hydroponics/constructable,/obj/machinery/power/apc/directional/west,/obj/structure/cable/yellow{icon_state = "4-8"},/turf/simulated/floor/plasteel/dark,/area/station/service/hydroponics)
+"YB" = (/obj/structure/window/reinforced,/turf/simulated/floor/transparent/glass/reinforced,/area/station/service/bar)
+"YG" = (/obj/machinery/atmospherics/portable/canister/air,/turf/simulated/floor/plating,/area/station/engineering/atmos)
+"YH" = (/obj/effect/turf_decal/tile/purple/half{dir = 1},/obj/machinery/computer/rdconsole/core,/turf/simulated/floor/plasteel/dark,/area/station/science/rnd)
+"YO" = (/obj/structure/chair/plastic,/turf/simulated/floor/plating,/area/station/hallway/primary/port)
+"YS" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Zc" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "1-2"},/turf/simulated/floor/wood/oak,/area/station/service/bar)
+"Zl" = (/obj/structure/table,/turf/simulated/floor/plasteel/white,/area/station/medical/medbay3)
+"Zq" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 1},/turf/simulated/floor/plasteel/white,/area/station/medical/medbay2)
+"Zx" = (/obj/structure/sign/poster/official/nanotrasen_logo,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/service/bar)
+"ZF" = (/turf/space,/turf/simulated/wall/indestructible/whiteshuttle,/area/station/medical/medbay3)
+"ZG" = (/obj/machinery/atmospherics/portable/canister/nitrogen,/turf/simulated/floor/engine/n2,/area/station/engineering/atmos)
+"ZN" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/effect/spawner/random/barrier/grille_maybe,/turf/simulated/floor/catwalk,/area/station/hallway/primary/port)
 
 (1,1,1) = {"
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
@@ -971,6 +1411,69 @@ gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkSVRuSVgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkSViASVgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkBcQrqmQrqmBcqmNrNrNrSVmvSVNrNrNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkBcnydQnyGdEunyNrSNMxPXPXPXMxdUNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkBcxSnynynynylZNrSNAmiAPXiAAmMxNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkBcOtOtBcqmsGqmTRNrwIPXPXPXMxMxNrNrNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkLcBcLcBcnquVuVrbgxAmiAPXiAAmMxMxeVNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkJoQHQHJoJooCFfJoeouVEgxWNrMxPXPXPXMxMxMxMxXwgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkQHCjPoWUYHugyKmpwlKWuVxWNrAmiAPXiAAmMxMxCfnogkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkQHWjUYfPUYIPkFGLeouVkpxWNrMxPXPXPXMxMxMxMxXwgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPJyayayayayayaPJJodqugVTIPIPNxJocIuVBzxWNrQKiAPXiAAmMxMxNrNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkhChChChCPJPJgkgkPJgkgkgkQHUsaxtqmtoKzHdatduVuVxWNrwFPXPXPXMxMxMxNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkhCFwVCwEzyzyhmzyzyPJPJPvqYNYScBZXkPPgEhTeoswBlpjNrRniAPXiAAmMxMxNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkhChChCFwFsvInwrjSeXUpXpXimeSvzUQUQUQUQUQsrEpjtzhlaKONrNrCmCmCmNrNrNrNrNrgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkczczgkgkgkgkgkhChChChChCMMMMNaVCMLFwTSsHIMVxBSKLlrRdUQbICdtOUQNuDvBnOgOgOguWuWuWuWuWuWuWuWuWdpgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkpiczczPJPJPJhChCMMMMIrMMMMNaFxPDNvFwuQQBaktYkMGUzrkMGfzZFNEyUQuWuWuWuWuWuWuWuWuWuWuWuWuWuWuWNLgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPJpiczczqEqEhCMMaMqsvuqsqnCePUyWRKFwYpbzHFMWfmkMzrkMBqGnbcYfUQuWuWuWuWuWuWuWuWuWuWuWuWuWuWuWdpgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkczAzczgkgkgkhCvADhIojOTdwnMMTNyrGSEwxmLmYkaygIgIOKCVDgUQvSySUQuWuWuWhGhGNDhGMJMJMJMJMJZFBUBUczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkqEPJgkgkqEhCQfjfjfBoITowviXKaiVcmslqnelqqPmcmcIXlqzIVznelquYuWMGuWNDtwByNZkAaZyczNAChoZlrKdpgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkhChChChChChCQfjfjfjfoPHlBNNCbAaWsIADJNDbDbDbDbEhnTawSbCxlquYauLuauVdNgqzXBNdfyraXZusKRYSKRNLgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkqEPJgkgkqEhCQfjfeYjfoPBoHrCSTzYoEwuSDcYBlqYBDcYBDoRHlqnelquYuWMGuWNDGxKUDXACMiWauoACttLSZlBQgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkjvVLczgkgkgkhCQfWfoPoPoPkTXIfDSQuLgepqpqpqZxpqpqpqpXVyysZcpqpXuWMGuWAQjukSHiGqWpHHtcACVqLSZlczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPJpiczczqEqEhCXIqyDjAWhnYjXIoypDzDgeMgqICIRkMgqICIRkJMpqLZwJpXuWMQkkXEzBQnzxSlzxuyZqlFBCCUHjczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkpiczczPJPJnnPJPJXIXIXIXIXIUVoDrLxBgeMgNiCIRkMgNiCIdnLZpqLZvQpXmOTKhcXETnLFNRsduGeumxuGWcTeTgczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkczczgkgkgkgkgkPJPJPJPJXIXIqyiYpDzDgeMgqICICcMgqICICcUhLheCfMpXuWVrmNXEmGitERfpQsqvcjNIIvSRVuczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPJPJPJXIXIHJXIXImWmWmWpXmWmWmWpXpXpXpXpXpXuWMGuWAQhtoxAQAQAQAQAQAQAQAQAQczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkopxvpVaIQLopuWMGuWEXGQZNXnXnXnXnrnloloPitKgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkopFqGtvcpVssuWMGuWgWWstgbnzqYOzqzqunFOfxgWgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkFqFqkepVopuWMGuWgWLJFcpyXaJOFbrqOOtGgWzqgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkFqFqsLkouWMQkkgWTOKhvgKCKCKCKCKCKCKCKCgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkNtuWuWTKhcKhKCKCngMqMsYGLMYlNXxjYlgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkkUNtuWVrmNeBFRGFBLLUHcFaFeBJFeFeBJgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkNtywMQaunXeqeqKdmEAfMyKCKCKCKCczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkywywuWxfdSerLzyvippbWrpJnEKCgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkywywKCKCiiFeYdFeQdKCKCKCKCczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPJiiFeFeFeHaWrDyZGKCgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkKCKCKCKCOnKCKCKCKCgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkczczPJKCiiKCPJczgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkIEgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPdLlLlLlPdgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPdPdlylylyPdPdgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPdlylylylylyPdgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
@@ -1000,6 +1503,44 @@ gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkPdgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkxigkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkNPgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
+gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
 gkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgk
