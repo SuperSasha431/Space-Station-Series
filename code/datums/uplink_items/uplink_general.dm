@@ -205,6 +205,13 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	item = /obj/item/clothing/gloves/fingerless/rapid
 	cost = 40
 
+/datum/uplink_item/dangerous/void_blade
+	name = "Void Blade"
+	desc = "Blade"
+	reference = "BL"
+	item = /obj/item/melee/void_blade
+	cost = 40
+
 /datum/uplink_item/dangerous/sword
 	name = "Energy Sword"
 	desc = "The energy sword is an edged weapon with a blade of pure energy. The sword is small enough to be pocketed when inactive. Activating it produces a loud, distinctive noise."

@@ -11,5 +11,4 @@
 
 /mob/living/carbon/human/proc/GraspVoid()
 	to_chat(src, "<span class='danger'>МАНСУС ЖДЁТ</span>")
-	C.bodytemperature = max(0, C.bodytemperature - 200)
 	Confused(10 SECONDS)

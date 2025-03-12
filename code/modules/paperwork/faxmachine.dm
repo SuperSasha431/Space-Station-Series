@@ -310,9 +310,9 @@ GLOBAL_LIST_EMPTY(fax_blacklist)
 
 			success = F.receivefax(A)
 	if(success)
-		visible_message("[src] beeps, \"Message transmitted successfully.\"")
+		visible_message("[src] beeps, \"Сообщение успешно отправлено.\"")
 	else
-		visible_message("[src] beeps, \"Error transmitting message.\"")
+		visible_message("[src] beeps, \"ОШИБКА%\"")
 
 /obj/machinery/photocopier/faxmachine/proc/receivefax(datum/fax/incoming)
 	if(stat & (BROKEN|NOPOWER))
