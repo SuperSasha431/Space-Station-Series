@@ -41,6 +41,13 @@
 	webmap_url = "https://affectedarc07.co.uk/emerald.html"
 	welcome_sound = 'sound/AI/welcome_reach.ogg'
 
+/datum/map/salternstation
+	fluff_name = "NSS Saltern"
+	technical_name = "SalternStation"
+	map_path = "_maps/map_files220/stations/saltern.dmm"
+	webmap_url = "https://affectedarc07.co.uk/emerald.html"
+	welcome_sound = 'sound/AI/welcome_reach.ogg'
+
 /datum/map/test_tiny
 	fluff_name = "test_tiny"
 	technical_name = "test_tiny"
