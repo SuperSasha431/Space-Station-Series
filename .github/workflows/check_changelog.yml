@@ -30,7 +30,7 @@ jobs:
           wget https://raw.githubusercontent.com/${{ github.repository }}/${{ github.base_ref }}/tools/changelog/tags.yml
 
       - name: Installing Python
-        uses: actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c
         with:
           python-version: '3.x'
 
